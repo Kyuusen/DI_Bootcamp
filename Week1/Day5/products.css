@@ -1,18 +1,24 @@
-ul {
-    list-style: none;
-    display: inline;
- }
- 
- li {
-     display: inline;
+.product-row-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 400px;
+    width: 300px;
+
  }
 
- #tag-new {
+ .tag-new {
     background-color: turquoise;
-    width: 50px;
-    height: 50px;
     color: white;
     font-size: 20px;
+    width: 50px;
+    height: 50px;
     font-weight: 600;
     border-radius: 50%;
     text-align: center;
@@ -20,10 +26,17 @@ ul {
     position: absolute ;
     top: 25px;
     left: 10px;
+    display: flex;
 }
 
- 
- #tag-discount {
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .tag-discount {
     background-color: red;
     width: 50px;
     height: 50px;
@@ -36,6 +49,7 @@ ul {
     position: absolute;
     top: 25px;
     right: 10px;
+    display: flex;
  }
 
  #price {
@@ -47,6 +61,7 @@ ul {
     color: lightgrey;
     font-size: 13px;
     font-weight: 400;
+    text-decoration: line-through;
  }
 
  .add-to-cart-btn {
@@ -58,25 +73,16 @@ ul {
     padding: 10px;
     text-align: center;
     margin: 0 auto;
-    border-radius: 5px;
-    
-    
+    border-radius: 5px; 
+    text-transform: uppercase;
  }
 
- .card-img {
-    background-image: url("images/image1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    height: 400px;
+ .product-card-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
  }
 
-.product-card {
-    height: 600px;
-    width: 300px;
-    
- } 
-
-.product-detail {
-   text-align: center;
-} 
+ #container {
+    padding-left: 50px;
+    padding-right: 50px;
+ }
