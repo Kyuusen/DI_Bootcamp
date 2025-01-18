@@ -1,0 +1,13 @@
+table,th,td {
+    border: 1px solid;
+    background-color: blanchedalmond;
+}
+
+table {
+    width: 75%;
+}
+
+th, td {
+    height: 85px;
+    width: 175px;
+}
