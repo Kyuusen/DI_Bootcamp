@@ -1,0 +1,50 @@
+ul {
+   list-style: none;
+   background-color: black;
+   padding: 30px;
+}
+
+li {
+    display: inline;
+    color: white;
+}
+
+.container {
+    position: relative;
+}
+
+#nav-icon {
+    position: absolute ;
+    top: 25px;
+    left: 10px;
+}
+
+#our-products-btn {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    position: fixed ;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#footer-year {
+    position: absolute ;
+    top: 25px;
+    left: 10px;
+}
+
+#footer-name {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}

@@ -1,0 +1,82 @@
+ul {
+    list-style: none;
+    display: inline;
+ }
+ 
+ li {
+     display: inline;
+ }
+
+ #tag-new {
+    background-color: turquoise;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    position: absolute ;
+    top: 25px;
+    left: 10px;
+}
+
+ 
+ #tag-discount {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+ }
+
+ #price {
+    color: turquoise;
+    font-weight: 600;
+ }
+
+ .discount {
+    color: lightgrey;
+    font-size: 13px;
+    font-weight: 400;
+ }
+
+ .add-to-cart-btn {
+    border: 1px solid lightgrey;
+    color: grey;
+    font-weight: 600;
+    width: 120px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+    
+ }
+
+ .card-img {
+    background-image: url("images/image1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 400px;
+ }
+
+.product-card {
+    height: 600px;
+    width: 300px;
+    
+ } 
+
+.product-detail {
+   text-align: center;
+} 
