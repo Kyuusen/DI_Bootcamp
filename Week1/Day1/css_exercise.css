@@ -1,0 +1,64 @@
+#green-sq {
+    font-weight: 300;
+    font-size: 25px;
+    background-color: #A5DD9B;
+    border: 2px solid #40A578;
+    padding: 30px;
+    
+}
+
+/* Border-style / Border-color attribute */
+
+/* French-flag css */
+
+#french-flag {
+    display: inline-block;
+    font-size: 0;
+}
+
+#blue {
+    background-color: blue;
+    display: inline-block;
+    width: 15px;
+    height: 40px;
+    margin: 0;
+}
+
+#white {
+    background-color: white;
+    display: inline-block;
+    width: 15px;
+    height: 40px;
+    margin: 0;
+}
+
+#red {
+    background-color: red;
+    display: inline-block;
+    width: 15px;
+    height: 40px;
+    margin: 0;
+}
+
+
+div ul :nth-child(2) {
+    color: blue;
+}
+
+ul li {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+div > p {
+    background-color: pink;
+    color: white;
+}
+
+/* To cross check this CSS */
+
+div:nth-of-type(2) p:nth-of-type(2) {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
