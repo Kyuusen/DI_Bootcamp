@@ -1,5 +1,5 @@
-table,th,td {
-    border: 1px solid;
+th {
+    border: 1px solid none;
     background-color: blanchedalmond;
 }
 
@@ -10,4 +10,11 @@ table {
 th, td {
     height: 85px;
     width: 175px;
+}
+
+td {
+    background-color: grey;
+    color: black;
+    font-weight: 700;
+    text-align: center;
 }
